@@ -1,0 +1,26 @@
+# Local data and secrets
+data/
+.env
+.env.*
+*.pem
+*.key
+
+# Local tooling and caches
+.zcode/
+.codex/
+.agents/
+node_modules/
+.cache/
+coverage/
+*.log
+
+# Generated deployment packages
+*.zip
+*.tgz
+*.tar.gz
+
+# OS and editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
