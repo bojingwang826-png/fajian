@@ -8,7 +8,7 @@
 
 [![Node.js](https://img.shields.io/badge/Node.js-%E2%89%A520-35675a?logo=nodedotjs&logoColor=white)](https://nodejs.org/)
 [![Zero Dependencies](https://img.shields.io/badge/runtime_dependencies-0-9a6b2f)](package.json)
-[![Tests](https://img.shields.io/badge/tests-7%20passed-35675a)](tests/)
+[![Tests](https://github.com/bojingwang826-png/fajian/actions/workflows/test.yml/badge.svg)](https://github.com/bojingwang826-png/fajian/actions/workflows/test.yml)
 [![Live Demo](https://img.shields.io/badge/live_demo-PocketBay-52738a)](https://app-fxl3.pocketbay.app)
 
 [在线体验](https://app-fxl3.pocketbay.app) · [功能介绍](#核心功能) · [快速开始](#快速开始) · [参与贡献](CONTRIBUTING.md)
@@ -250,4 +250,3 @@ npm start
 **法笺 · 让每次落笔都有依据**
 
 </div>
-
