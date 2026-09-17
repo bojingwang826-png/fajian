@@ -1,0 +1,51 @@
+name: 缺陷报告
+description: 报告可复现的问题
+title: "[Bug] "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: 感谢反馈。请勿提交 API Key、个人信息或未公开资料。
+  - type: textarea
+    id: problem
+    attributes:
+      label: 问题描述
+      description: 请说明实际结果与预期结果。
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: 复现步骤
+      placeholder: |
+        1. 进入……
+        2. 上传……
+        3. 点击……
+    validations:
+      required: true
+  - type: dropdown
+    id: area
+    attributes:
+      label: 影响模块
+      options:
+        - Word / PDF 导入
+        - 题库管理
+        - 默写 / 填空
+        - 判分
+        - 模拟考试
+        - 错题与复习
+        - 设置与数据
+        - 页面与交互
+        - 其他
+    validations:
+      required: true
+  - type: input
+    id: environment
+    attributes:
+      label: 运行环境
+      placeholder: Windows 11 / Chrome 版本 / Node.js 版本
+  - type: textarea
+    id: sample
+    attributes:
+      label: 最小示例
+      description: 可粘贴已匿名化的最小文本；请勿上传完整受版权保护资料。
